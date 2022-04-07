@@ -27,6 +27,7 @@ X12-X17: Amount of bill statement (NT dollar). X12 = amount of bill statement in
 X18-X23: Amount of previous payment (NT dollar). X18 = amount paid in September, 2005; X19 = amount paid in August, 2005; . . .;X23 = amount paid in April, 2005.
 
 ## Dataset Information
+
 Number of instances: 30,000
 
 Number of attributes: 25
@@ -59,3 +60,4 @@ XGB Classifier
 ## Evaluating Models
 
 ## Conclusion
+We have built predictive model for credit card agency to predict if a person would default on his/her payment of credit card. We have performed feature engineering, feature selection, hyperparameter tuning to prevent overfitting and decrease error rate in the model. Since the business nature of credit card default prediction requires model to have a high recall, therefore, we selected XGBoost Classifier as our best model.
