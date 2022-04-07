@@ -1,11 +1,12 @@
-Credit-Card-Default-Prediction-Ml-Classification
-Project Title :
+# Credit-Card-Default-Prediction-Ml-Classification
+
+## Project Title :
 Predicting whether a customer will default on his/her credit card
 
-Problem Description
+## Problem Description
 This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. We can use the K-S chart to evaluate which customers will default on their credit card payments
 
-Data Description
+## Data Description
 Attribute Information:
 This research employed a binary variable, default payment (Yes = 1, No = 0), as the response variable. This study reviewed the literature and used the following 23 variables as explanatory variables:
 
@@ -25,18 +26,18 @@ X12-X17: Amount of bill statement (NT dollar). X12 = amount of bill statement in
 
 X18-X23: Amount of previous payment (NT dollar). X18 = amount paid in September, 2005; X19 = amount paid in August, 2005; . . .;X23 = amount paid in April, 2005.
 
-Dataset Information
+## Dataset Information
 Number of instances: 30,000
 
 Number of attributes: 25
 
-Target Variable :
+## Target Variable :
 'default payment next month': default payment (Yes = 1, No = 0)
 
-Goal:
+## Goal:
 The goal isto build a model which predicts whether the customer might default the credit limit or not based on the past dataset i.e. given to us.
 
-Breakdown of this Notebook:
+## Breakdown of this Notebook:
 Importing Libraries
 
 Loading the dataset
@@ -55,6 +56,6 @@ Random Forest Classifier
 
 XGB Classifier
 
-Evaluating Models
+## Evaluating Models
 
-Conclusion
+## Conclusion
