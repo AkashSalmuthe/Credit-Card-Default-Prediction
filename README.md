@@ -1,12 +1,12 @@
 # 📑Credit-Card-Default-Prediction-Ml-Classification
 
-## Project Title :
+## 📘Project Title :
 Predicting whether a customer will default on his/her credit card
 
-## Problem Description
+## 📖Problem Description
 This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. We can use the K-S chart to evaluate which customers will default on their credit card payments
 
-## Data Description
+## 📖Data Description
 Attribute Information:
 This research employed a binary variable, default payment (Yes = 1, No = 0), as the response variable. This study reviewed the literature and used the following 23 variables as explanatory variables:
 
@@ -32,10 +32,10 @@ Number of instances: 30,000
 
 Number of attributes: 25
 
-## Target Variable :
+## 📷Target Variable :
 'default payment next month': default payment (Yes = 1, No = 0)
 
-## Goal:
+## 🥅Goal:
 The goal isto build a model which predicts whether the customer might default the credit limit or not based on the past dataset i.e. given to us.
 
 ## Breakdown of this Notebook:
@@ -59,5 +59,5 @@ XGB Classifier
 
 ## Evaluating Models
 
-## Conclusion
+## 📗Conclusion
 We have built predictive model for credit card agency to predict if a person would default on his/her payment of credit card. We have performed feature engineering, feature selection, hyperparameter tuning to prevent overfitting and decrease error rate in the model. Since the business nature of credit card default prediction requires model to have a high recall, therefore, we selected XGBoost Classifier as our best model.
